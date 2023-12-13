@@ -1,0 +1,28 @@
+body{
+    margin: auto;
+    width: 100%;
+}
+
+.container{
+   
+    display: grid;
+    justify-content: center;
+    color: #eee;
+    grid-template-columns: 250px 250px 250px;
+    
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cont-item{
+    background-color: rgb(51, 25, 201);
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
